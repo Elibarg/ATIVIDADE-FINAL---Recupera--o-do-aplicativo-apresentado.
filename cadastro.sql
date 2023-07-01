@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01-Jul-2023 às 16:04
+-- Tempo de geração: 01-Jul-2023 às 16:07
 -- Versão do servidor: 10.4.28-MariaDB
 -- versão do PHP: 8.2.4
 
@@ -38,8 +38,8 @@ CREATE TABLE `cadastro` (
 --
 
 INSERT INTO `cadastro` (`nome`, `email`, `telefone`) VALUES
-('Nylton', 'nylton_constancio@estudante.sesisenai.org.br', '+55(47)99119-8575'),
 ('batata', 'batataassada@gmail.com', '+55(47_983732834'),
+('Nylton', 'nylton_constancio@estudante.sesisenai.org.br', '+55(47)99119-8575'),
 ('Roberto', 'gabriel_ec_silva@estudante.sesisenai.org.br', '(93) 2162-4776');
 COMMIT;
 
