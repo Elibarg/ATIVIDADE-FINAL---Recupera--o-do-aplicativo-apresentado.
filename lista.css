@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+}
+input{
+    width: 200px;
+    height: 50px;
+    font-size:small;
+    margin-top: 20px;
+}
+span{
+    color: white;
+    font-size: x-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+
+}
+.botao_cadastro{
+    position: absolute;
+    top: 100%;
+    margin-top: -60px;
+    left: 100%;
+    margin-left: -60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: #4caf50;
+
+}
+button{
+    width: 90px;
+    height: 30px;
+    background-color: #4caf50;
+
+}
+.listado{
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+}
